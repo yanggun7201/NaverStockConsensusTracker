@@ -1,0 +1,19 @@
+{
+  "name": "naverstockconsensustracker",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "dependencies": {
+    "@slack/web-api": "^7.12.0",
+    "dotenv": "^17.2.3",
+    "node-cron": "^4.2.1",
+    "puppeteer": "^24.30.0"
+  }
+}
